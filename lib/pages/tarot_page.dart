@@ -11,7 +11,7 @@ class TarotPage extends StatefulWidget {
   State<TarotPage> createState() => _TarotPageState();
 }
 
-class _TarotPageState extends State<TarotPage> with TickerControllerMixin {
+class _TarotPageState extends State<TarotPage> with TickerProviderStateMixin {
   List<TarotCard> _cards = [];
   bool _drawing = false;
   int _revealedIndex = -1;
