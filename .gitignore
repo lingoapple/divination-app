@@ -1,0 +1,28 @@
+# Dependencies
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+.android/
+.ios/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Flutter
+**/generated_plugin_registrant.dart
+
+# Local properties (contains SDK paths)
+android/local.properties
+
+# Web preview (not needed in repo)
+web_preview/
+
+# OS files
+.DS_Store
+Thumbs.db
