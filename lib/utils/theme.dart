@@ -29,13 +29,13 @@ class AppTheme {
         backgroundColor: Colors.transparent,
         elevation: 0,
         centerTitle: true,
-        titleTextStyle: GoogleFonts.notoSerifSC(
+        titleTextStyle: GoogleFonts.notoSerifSc(
           fontSize: 20,
           fontWeight: FontWeight.w600,
           color: textPrimary,
         ),
       ),
-      textTheme: GoogleFonts.notoSerifSCTextTheme(
+      textTheme: GoogleFonts.notoSerifScTextTheme(
         const TextTheme(
           headlineLarge: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: textPrimary),
           headlineMedium: TextStyle(fontSize: 22, fontWeight: FontWeight.w600, color: textPrimary),
@@ -44,7 +44,7 @@ class AppTheme {
           labelLarge: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: accent),
         ),
       ),
-      cardTheme: CardThemeData(
+      cardTheme: CardTheme(
         color: bgCard,
         elevation: 0,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
